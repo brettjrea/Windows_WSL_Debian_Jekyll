@@ -54,4 +54,4 @@ source ~/.bashrc
 
 ### Start jekyll server.
 
-`bundle exec serve jekyll`
+`bundle exec jekyll serve`
