@@ -19,7 +19,7 @@ gem install jekyll bundler
 ### Create jekyll site.
 jekyll new jek
 ### Change directory.
-cd /jek/
+cd jek
 ### Initiate site dependencies.
 bundle install
 ### Start jekyll server.
