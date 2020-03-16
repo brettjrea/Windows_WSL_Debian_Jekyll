@@ -1,5 +1,7 @@
 # Windows_WSL_Debian_Jekyll
 
+# Installing quickly with a script.
+
 ## Copy and paste this whole command and press enter.
 ```
 wget https://raw.githubusercontent.com/brettjrea/Windows_WSL_Debian_Jekyll/master/setupjek.sh &&
