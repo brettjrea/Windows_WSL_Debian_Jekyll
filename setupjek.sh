@@ -4,11 +4,16 @@ sudo apt update -y &&
 sudo apt upgrade -y &&
 sudo apt autoremove -y
 ### Install common packages.
-sudo apt install build-essential curl ruby -y
+sudo apt install ruby-full build-essential zlib1g-dev
+### Add Environmental variables.
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
 ### Check ruby for updates.
-sudo gem update --system
-### Install Bundler Jekyll
-sudo gem install bundler jekyll
+gem update --system
+### Install Jekyll Bundler
+gem install jekyll bundler
 ### Create jekyll site.
 jekyll new my-awesome-site
 ### Change directory.
