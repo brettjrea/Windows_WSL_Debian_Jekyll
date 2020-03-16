@@ -17,10 +17,10 @@ gem update --system
 ### Install Jekyll Bundler
 gem install jekyll bundler
 ### Create jekyll site.
-jekyll new my-awesome-site
+jekyll new jek
 ### Change directory.
-cd my-awesome-site
+cd /jek/
 ### Initiate site dependencies.
 bundle install
 ### Start jekyll server.
-bundle exec serve jekyll
+bundle exec jekyll serve
