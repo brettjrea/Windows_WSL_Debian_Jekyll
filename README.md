@@ -2,7 +2,7 @@
 
 ## Copy and paste this whole command and press enter.
 ```
-wget https://raw.githubusercontent.com/brettjrea/Windows_WSL_Debian_Jekyll/master/setupgrav.sh &&
+wget https://raw.githubusercontent.com/brettjrea/Windows_WSL_Debian_Jekyll/master/setupjek.sh &&
 bash fixscripts.sh &&
 bash setupjek.sh
 ```
