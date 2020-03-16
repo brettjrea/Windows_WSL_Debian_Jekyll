@@ -1,5 +1,15 @@
 # Windows_WSL_Debian_Jekyll
 
+## Copy and paste this whole command and press enter.
+```
+wget https://raw.githubusercontent.com/brettjrea/Scripts_Fix/master/fixscripts.sh &&
+wget https://raw.githubusercontent.com/brettjrea/Windows_WSL_Debian_Jekyll/master/setupgrav.sh &&
+bash fixscripts.sh &&
+bash setupjek.sh
+```
+
+# Install by doing what the script does snip by snip.
+
 ### update, upgrade & clean.
 
 ```
