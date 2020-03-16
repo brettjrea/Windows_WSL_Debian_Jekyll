@@ -1,4 +1,6 @@
 #!/bin/bash
+### Disable Prompts.
+DEBIAN_FRONTEND=noninteractive
 ### update, upgrade & clean.
 sudo apt update -y &&
 sudo apt upgrade -y &&
