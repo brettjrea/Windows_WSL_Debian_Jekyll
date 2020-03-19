@@ -6,7 +6,7 @@ sudo apt update -y &&
 sudo apt upgrade -y &&
 sudo apt autoremove -y
 ### Install common packages.
-sudo apt install ruby-full build-essential zlib1g-dev -y
+sudo apt install build-essential git ruby-full zlib1g-dev -y
 ### Add Environmental variables.
 echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
 echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
