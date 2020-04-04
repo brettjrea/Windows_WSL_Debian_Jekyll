@@ -74,7 +74,7 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
 and paste into debian terminal with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
-### Create a jekyll site.
+### Create a Jekyll site.
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
@@ -83,7 +83,7 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
 and paste into debian terminal with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
-### Move into new site directory.
+### Move into the new site directory.
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
@@ -100,7 +100,7 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
 and paste into debian terminal with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
-### Start jekyll server.
+### Start Jekyll server.
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
