@@ -1,5 +1,10 @@
 # Windows_WSL_Debian_Jekyll
 
+<details>
+<summary>Overview</summary>
+Jekyll is a static site generator. More details to come.
+</details>
+
 # Installing quickly with a script.
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
@@ -14,7 +19,7 @@ and paste into debian terminal with <kbd>Right Mouse Click</kbd> and press <kbd>
 
 # Install by doing what the script does snip by snip.
 
-### update, upgrade & clean.
+### Update, upgrade & clean.
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
@@ -26,14 +31,13 @@ sudo apt autoremove -y
 
 and paste into debian terminal with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
-### Install common packages.
+### Install preliminary packages.
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
 ```
 sudo apt install ruby-full build-essential zlib1g-dev
 ```
-
 
 and paste into debian terminal with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
@@ -69,7 +73,7 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
 and paste into debian terminal with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
-### Create jekyll site.
+### Create a jekyll site.
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
@@ -78,7 +82,7 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
 and paste into debian terminal with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
-### Change directory.
+### Move into new site directory.
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
@@ -87,7 +91,7 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
 and paste into debian terminal with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
-### Initiate site dependencies.
+### Initiate site dependencies with bundle.
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
@@ -102,4 +106,3 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 `bundle exec jekyll serve`
 
 and paste into debian terminal with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
-
