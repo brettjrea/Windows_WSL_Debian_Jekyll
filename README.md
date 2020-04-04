@@ -2,7 +2,8 @@
 
 <details>
 <summary>Overview</summary>
-Jekyll is a static site generator. More details to come.
+The following is a quick script to install Jekyll on Debian wrote and tested with Debian 10 'Buster' on WSL.
+For those of you that want to know what each command does I've also included a snip by snip below it defining each step.
 </details>
 
 # Installing quickly with a script.
