@@ -6,6 +6,8 @@ The following is a quick script to install Jekyll on Debian wrote and tested wit
 For those of you that want to know what each command does I've also included a snip by snip below it defining each step.
 </details>
 
+---
+
 # Installing quickly with a script.
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
@@ -17,6 +19,8 @@ bash setupjek.sh
 ```
 
 and paste into debian terminal with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
+
+---
 
 # Install by doing what the script does snip by snip.
 
@@ -32,6 +36,8 @@ sudo apt autoremove -y
 
 and paste into debian terminal with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
+---
+
 ### Install preliminary packages.
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
@@ -41,6 +47,8 @@ sudo apt install ruby-full build-essential zlib1g-dev
 ```
 
 and paste into debian terminal with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
+
+---
 
 ### Add Environmental Variables.
 
@@ -55,6 +63,7 @@ source ~/.bashrc
 
 and paste into debian terminal with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
+---
 
 ### Check ruby for updates.
 
@@ -65,6 +74,8 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
 and paste into debian terminal with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
+---
+
 ### Install Bundler Jekyll
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
@@ -73,6 +84,8 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
 
 and paste into debian terminal with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
+
+---
 
 ### Create a Jekyll site.
 
@@ -83,6 +96,8 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
 and paste into debian terminal with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
+---
+
 ### Move into the new site directory.
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
@@ -92,6 +107,8 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
 and paste into debian terminal with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
+---
+
 ### Initiate site dependencies with bundle.
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
@@ -100,6 +117,8 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
 and paste into debian terminal with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
+---
+
 ### Start Jekyll server.
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
@@ -107,3 +126,5 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 `bundle exec jekyll serve`
 
 and paste into debian terminal with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
+
+---
