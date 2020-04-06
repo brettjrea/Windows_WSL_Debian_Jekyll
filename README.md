@@ -14,8 +14,8 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
 ```
 wget https://raw.githubusercontent.com/brettjrea/Windows_WSL_Debian_Jekyll/master/setupjek.sh &&
-bash fixscripts.sh &&
-bash setupjek.sh
+sudo bash fixscripts.sh &&
+sudo bash setupjek.sh
 ```
 
 and paste into debian terminal with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
