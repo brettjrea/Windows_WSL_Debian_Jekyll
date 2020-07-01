@@ -1,8 +1,8 @@
 ---
 title: Windows_WSL_Debian_Jekyll
-layout: page
+layout: repos
 permalink: /Windows_WSL_Debian_Jekyll/
-navigation_weight: 3
+repository_weight: 3
 ---
 
 # Windows_WSL_Debian_Jekyll
