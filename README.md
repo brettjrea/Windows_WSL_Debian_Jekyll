@@ -1,7 +1,7 @@
 ---
-title: Windows_WSL_Debian_Jekyll
+title: WSL_Debian_Jekyll
 layout: repos
-permalink: /Windows_WSL_Debian_Jekyll/
+permalink: /WSL_Debian_Jekyll/
 repository_weight: 3
 ---
 
