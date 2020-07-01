@@ -1,4 +1,13 @@
+---
+title: Windows_WSL_Debian_Jekyll
+layout: page
+permalink: /Windows_WSL_Debian_Jekyll/
+navigation_weight: 3
+---
+
 # Windows_WSL_Debian_Jekyll
+
+---
 
 <details>
 <summary>Overview</summary>
